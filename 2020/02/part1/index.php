@@ -1,5 +1,6 @@
 <?php
 $passwords = explode(PHP_EOL, file_get_contents('./input.txt', true));
+
 foreach ($passwords as $password) {
 
     //
@@ -23,11 +24,7 @@ function password_policy($line) {
     $character = trim($password_policy[1]);
 
     $occurrence = substr_count($password, $character);
-    echo $password . " ";
-    echo $character . " ";
-    echo $min . " ";
-    echo $max . " ";
-    echo $occurrence . " ";
+
     if ($occurrence >= $min && $occurrence <= $max) {
         return "true";
     } else {

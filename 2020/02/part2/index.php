@@ -23,12 +23,6 @@ function password_policy($line) {
 
     $occurrences = strpos_all($password, $character);
 
-    echo $password . " ";
-    echo $character . " ";
-    echo $min . " ";
-    echo $max . " ";
-    echo $occurrences . " ";
-
     if ((in_array($min, $occurrences) || in_array($max, $occurrences)) && !( in_array($min, $occurrences) && in_array($max, $occurrences))) {
         return "true";
     } else {
