@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+html {
+    padding: 15px 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0 0 15px;
+    line-height: 1;
+    color: #555;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+}
+
+p {
+    display: flex;
+    padding: 0 0 15px;
+    color: #333;
+}
+
+code {
+    display: block;
+    padding: 10px 10px 20px;
+    background-color: #333;
+    color: white;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    overflow-x: scroll;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.row {
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-md-6,
+.col-md-12 {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+}
+
+.table-box {
+    width: 100%;
+    display: block;
+    overflow-x: scroll;
+}
+
+code {
+    overflow-x: auto;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+}
