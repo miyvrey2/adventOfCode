@@ -12,6 +12,7 @@
                     <h1>Advent of Code</h1>
                     Day 01 <a href="/2022/01/part1/index.php">Part 1</a> | <a href="/2022/01/part2/index.php">Part 2</a><br />
                     Day 02 <a href="/2022/02/part1/index.php">Part 1</a> | <a href="/2022/02/part2/index.php">Part 2</a><br />
+                    Day 03 <a href="/2022/03/part1/index.php">Part 1</a> | <a href="/2022/03/part2/index.php">Part 2</a><br />
                 </div>
             </div>
         </div>
