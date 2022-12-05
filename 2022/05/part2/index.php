@@ -75,7 +75,7 @@ function retrieve_top_layered_crates($cargo)
 
 function dump($var)
 {
-    echo "<pre style='background-color: #86ae84; color: #283028; padding: 3px; border: 2px dashed #526c51;'>";var_dump($var);echo "</pre>";
+    echo "<pre style='background-color: #86ae84; color: #283028; padding: 3px; border: 2px dashed #6c5151;'>";var_dump($var);echo "</pre>";
 }
 
 function dump_exit($var)
